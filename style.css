@@ -1,0 +1,66 @@
+* {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(216, 179, 201);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+input {
+  padding: 5px;
+  border-radius: 3px;
+}
+.navbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  background-color: lightsalmon;
+  border-bottom: 2rem solid var(maroon);
+}
+.navbar .navbar-nav a {
+  color: rgb(182, 36, 36);
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: maroon;
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid maroon;
+  transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+  transition: 0.2s linear;
+}
+
+form {
+  border: solid 2px;
+  padding: 20px;
+  padding-top: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+
+thead,tr,th {
+    border: groove 1px;
+    padding: 10px;
+    padding-top: 10px;
+    margin: 10px;
+}
+table{
+    padding: 10px;
+}
+section h2{
+    padding-left: 20px;
+}
